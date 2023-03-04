@@ -1,0 +1,50 @@
+div.escuro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    width: 80%;
+    background-color: rgba(127, 127, 127, 0.253);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+div.cont{
+    text-align: center;
+    padding: 10px 20px;
+    font-family: Verdana;
+    font-size: medium;
+}
+body{
+    background-color: rgb(39, 39, 39);
+    color: rgb(255, 255, 255);
+}
+div.texto{
+    font-size: large;
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+p.small{
+    line-height: 0.8px;
+}
+p.big{
+    line-height: 1.8px;
+}
+.coluna{
+    float: left;
+    width: 33.33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+    margin-bottom: 25px;    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 60%;
+}
